@@ -1,0 +1,50 @@
+/* Estilo customizado para a tela de login */
+body {
+    background-color: #000000; /* Cor de fundo da tela */
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.div-video{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+
+}
+
+div img{
+    position: absolute;
+}
+
+
+
+.card {
+    border-radius: 15px; /* Arredonda os cantos do card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao card */
+}
+
+.card-header {
+    background-color: transparent; /* Cor do cabeçalho do card */
+    color: #D8992E; /* Cor do texto do cabeçalho */
+    text-align: center; /* Alinha o texto do cabeçalho no centro */
+}
+
+.card-body {
+    padding: 30px; /* Aumenta o padding do corpo do card */
+}
+
+.btn-primary {
+    background-color: #D8992E; /* Cor do botão de login */
+    border: none; /* Remove a borda do botão */
+    color: white; /* Cor do texto do botão */
+}
+
+.btn-link {
+    color: #D8992E; /* Cor do link "Esqueceu a senha?" */
+    text-decoration: none; /* Remove a sublinhação do link */
+}

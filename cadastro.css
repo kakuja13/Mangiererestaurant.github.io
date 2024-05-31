@@ -1,0 +1,47 @@
+/* Estilos customizados para a tela de cadastro (herda do login) */
+body {
+    background-color: #000000; /* Cor de fundo da tela */
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.div-video{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+
+}
+
+div img{
+    position: absolute;
+}
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: transparent;
+    color: #D8992E;
+    text-align: center;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.btn-primary {
+    background-color: #D8992E;
+    border: none;
+    color: white;
+}
+
+.btn-link {
+    color: #D8992E;
+    text-decoration: none;
+}

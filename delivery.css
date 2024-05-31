@@ -1,0 +1,178 @@
+::-webkit-scrollbar{
+    width: 5px;
+    background-image: url("https://img.freepik.com/fotos-premium/fundo-de-textura-de-papel-preto-para-design-em-seu-conceito-de-trabalho_35956-3879.jpg");
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: #D8992E;
+    border-radius: 20px;
+  }
+
+  body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+  } 
+.div-video{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vw;
+
+}
+  
+  /* Style the header container */
+  .container-1 {
+      display: flex;
+      justify-content: space-between; /* Space items evenly */
+      align-items: center; /* Vertically align content */
+      background-image: url("https://img.freepik.com/fotos-premium/fundo-de-textura-de-papel-preto-para-design-em-seu-conceito-de-trabalho_35956-3879.jpg");
+      height: 120px;
+    }
+    
+    /* Style the image container */
+    .navbar-brand {
+      width: 250px; /* Set image width */
+    }
+    
+    /* Style the image */
+    .navbar-brand img {
+      width: 100%; /* Image fills container width */
+      height: auto;  /* Maintain image aspect ratio */
+    }
+    
+    /* Style the navigation links */
+    .navbar-nav .nav-link {
+      position: relative;
+      gap: 50px;
+      padding-top: 55px;
+      color: #D8992E; /* Set link color */
+      font-size: 20px; /* Set font size */
+      font-weight: bold; /* Set font weight */
+      margin-right: 20px;
+    }
+  
+    
+  
+    .navbar-nav .nav-link::after{
+      content: "";
+      position: absolute;
+      background-color: #D8992E;
+      border-radius: 20px;
+      width: 0;
+      height: 4px;
+      bottom: 5px;
+      left: 0;
+      transition: .3s;
+    }
+  
+    .navbar-nav .nav-link:hover::after{
+      width: 100%;
+  
+    }
+    
+    .input{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 18px;
+    }
+  
+    .input div{
+      background-color: #D8992E;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 20px;
+      padding: 4px;
+    }
+  
+    .input div i{
+      color: white;
+      font-size: 20px;
+    }
+  
+    .input div input{
+      width: 40vw;
+      border: none;
+      background-color: transparent;
+      outline: none;
+      color: white;
+    }
+  
+    .car-user{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      padding-left: 30px;
+      margin-top: 18px;
+    }
+  
+    .car-user a{
+      text-decoration: none;
+      background-color: #D8992E;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      width: 50px;
+      font-size: 20px;
+      border-radius: 10px;
+    }
+
+    .container {
+        background: rgba(255, 255, 255, 0.466);
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.397);
+        backdrop-filter: blur(10px); /* Filtro de blur */
+    }
+    h2 {
+        margin-bottom: 20px;
+    }
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+}
+.delivery-option {
+    margin-bottom: 3px;
+}
+.delivery-option img {
+    max-width: 600px;
+    max-height: 220px;
+    object-fit: cover;
+}
+.delivery-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.delivery-description {
+    margin-bottom: 1rem;
+}
+.btn-select {
+    background-color: #383a3d2a;
+    border-color: #007bff;
+}
+footer{
+    text-align: center;
+    background-image: url("https://img.freepik.com/fotos-premium/fundo-de-textura-de-papel-preto-para-design-em-seu-conceito-de-trabalho_35956-3879.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+
+  footer div img{
+    width: 300px;
+  }
+
+  footer div p{
+    color: white;
+  }
